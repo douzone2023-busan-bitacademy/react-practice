@@ -18,7 +18,7 @@ function Clock(props) {
 
     return (
         //
-        // HTML 태그를 동적으로 생성하여 JSX Element의 특정 속성(dangerouslySetInnerHTML) 으로 렌더링 하는 작업은 금하고 있지만
+        // HTML 태그를 동적으로 생성하여 JSX Element의 특정 속성(dangerouslySetInnerHTML)으로 렌더링 하는 작업은 금하고 있지만
         // XSS(Cross-Site-Scripting) 보호 기능을 끄고 사용할 수 있다.
         <div dangerouslySetInnerHTML={{__html: htmls}} />
     );
