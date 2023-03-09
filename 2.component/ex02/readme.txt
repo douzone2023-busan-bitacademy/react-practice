@@ -22,7 +22,6 @@ ex02: Component Styling
    - css-loader options: {modules: true}
    - $ npm run debug src=05 css-modules=true
 
-
 7) React Modal 
 8) Modal: Material UI
 

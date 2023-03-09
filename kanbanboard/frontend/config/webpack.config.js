@@ -2,8 +2,8 @@ const path = require('path');
 
 module.exports = function(env){
     return {
-        mode: "development",
-        entry: path.resolve(`src/${env.src}/index.js`),
+        mode: "none",
+        entry: path.resolve(`src/index.js`),
         output: {
             path: path.resolve('public'),
             filename: 'assets/js/main.js',
@@ -13,7 +13,10 @@ module.exports = function(env){
             rules:[{
                 test: /\.js$/i,
                 exclude: /node_modules/,
-                use: 'babel-loader'
+                loader: 'babel-loader',
+                options: {
+                    configFile: path.resolve('config/babel.config.json')
+                }
             },{
                 test: /\.(c|sa|sc)ss$/i,
                 use: [
@@ -21,7 +24,7 @@ module.exports = function(env){
                     {
                         loader: 'css-loader',
                         options: {
-                            modules: env['css-modules'] !== 'false'
+                            modules: true
                         }
                     },
                     'sass-loader']

@@ -1,11 +1,11 @@
 {
-  "name": "ex02",
+  "name": "kanbanboard",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "debug": "npx webpack serve --progress --env",
-    "build": "npx webpack"
+    "start": "npx webpack serve --config config/webpack.config.js --progress --mode development",
+    "build": "npx webpack --config config/webpack.config.js --mode production"
   },
   "keywords": [],
   "author": "",
