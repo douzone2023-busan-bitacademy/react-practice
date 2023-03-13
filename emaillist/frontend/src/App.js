@@ -9,7 +9,7 @@ const App = () => {
   const [emails, setEmails] = useState(data);
   const notifyKeyWordChanged = function(keyword) {
     // keyword가 firstName or lastName or email
-    const newEmails = emails.filter(function(e) {return})
+    const newEmails = emails.filter(function(e) {return true})
 
   }
 
