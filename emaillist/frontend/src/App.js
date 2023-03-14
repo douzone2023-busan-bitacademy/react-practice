@@ -7,6 +7,7 @@ import data from './assets/json/data.json'
 
 const App = () => {
   const [emails, setEmails] = useState(data);
+  
   const notifyKeywordChanged = function(keyword) {
     const emails = data.filter(e => e.firstName.indexOf(keyword) != -1 || e.lastName.indexOf(keyword) != -1 || e.email.indexOf(keyword) != -1);
     setEmails(emails);
