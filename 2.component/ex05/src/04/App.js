@@ -9,7 +9,7 @@ export default function App() {
         <div>
             <span>{ticks}</span>
             {
-                ticks % 10 === 0 ?
+                ticks % 10 === 1 ?
                 null :
                 <Clock
                     message={'ex05: useEffect Hook example'}
