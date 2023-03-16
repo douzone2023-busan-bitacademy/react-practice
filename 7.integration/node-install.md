@@ -38,14 +38,14 @@
 3.	링크 작업
 
     ```bash
-    # ln -s /usr/local/dozuone2023/node-v18.14.1 /usr/local/douzone2023/node
+    # ln -s /usr/local/douzone2023/node-v18.14.1 /usr/local/douzone2023/node
     ```
 
 4.	PATH 설정 (/etc/profile)
 
     ```
     # node 
-    export PATH=$PATH:/usr/local/dozuone2023/node/bin
+    export PATH=$PATH:/usr/local/douzone2023/node/bin
     ```
 
 5.	설정 적용 및 설치 확인
