@@ -38,7 +38,7 @@
 3.	링크 작업
 
     ```bash
-    # ln -s /usr/local/dozuone2023/node-v14.4.0 /usr/local/douzone2023/node
+    # ln -s /usr/local/dozuone2023/node-v18.14.1 /usr/local/douzone2023/node
     ```
 
 4.	PATH 설정 (/etc/profile)
