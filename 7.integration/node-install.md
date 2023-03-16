@@ -174,12 +174,12 @@
     ```
 
 2.	설치
-    v14.4.0 을 설치하고 설치 위치는 /usr/local/kickscar/node-v14.4.0 이다.
+    v14.4.0 을 설치하고 설치 위치는 /usr/local/kickscar/node-v18.14.1 이다.
 
     ```bash
-    # wget https://nodejs.org/dist/v14.4.0/node-v14.4.0.tar.gz
-    # tar xvfz node-v14.4.0.tar.gz
-    # ./configure --prefix=/usr/local/kickscar/node-v14.4.0
+    # wget https://nodejs.org/dist/v18.14.1/node-v18.14.1.tar.gz
+    # tar xvfz node-v18.14.1.tar.gz
+    # ./configure --prefix=/usr/local/kickscar/node-v18.14.1
     # make & make install
     ```
 
