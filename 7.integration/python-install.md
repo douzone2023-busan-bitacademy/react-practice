@@ -138,14 +138,14 @@
 	-	설치 디렉토리 링크 및 PATH 설정
 
 		```sh
-		ln -s /etc/usr/kickscar/python3.7.6 /etc/usr/kickscar/python
+		ln -s /usr/local/douzone2023/python3.7.6 /usr/local/douzone2023/python
 		```
 
 	-	/etc/profile 수정
 
 		```sh
 		# python
-		export PATH=$PATH:/usr/local/kickscar/python/bin
+		export PATH=$PATH:/usr/local/douzone2023/python/bin
 		
 		```
 
