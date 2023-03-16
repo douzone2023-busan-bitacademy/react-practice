@@ -31,7 +31,7 @@
     ```bash
     # wget https://nodejs.org/dist/v18.14.1/node-v18.14.1.tar.gz
     # tar xvfz node-v18.14.1.tar.gz
-    # ./configure --prefix=/usr/local/dozuone2023/node-v18.14.1
+    # ./configure --prefix=/usr/local/douzone2023/node-v18.14.1
     # make & make install
     ```
 
@@ -53,5 +53,5 @@
     ```bash
     # source /etc/profile
     # node --version
-    v14.3.0
+    v18.14.1
     ```
