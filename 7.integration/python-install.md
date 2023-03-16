@@ -103,7 +103,7 @@
 	tar xvfz Python-3.7.6.tgz 
 	cd Python-3.7.6
 
-	./configure --prefix=/usr/local/kickscar/python3.7.6 --with-openssl=/usr/local/ssl --enable-shared
+	./configure --prefix=/usr/local/douzone2023/python3.7.6 --with-openssl=/usr/local/ssl --enable-shared
 	make
 	make install
 	```
@@ -118,7 +118,7 @@
 	-	python.conf 내용
 
 		```sh
-		/usr/local/kickscar/python3.7.6/lib
+		/usr/local/dozuone2023/python3.7.6/lib
 		```
 
 	-	ldconfig 실행 및 확인
